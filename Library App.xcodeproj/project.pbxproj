@@ -13,6 +13,9 @@
 		EAB54957282FF4D20026FCD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB54955282FF4D20026FCD1 /* Main.storyboard */; };
 		EAB54959282FF4D30026FCD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB54958282FF4D30026FCD1 /* Assets.xcassets */; };
 		EAB5495C282FF4D30026FCD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB5495A282FF4D30026FCD1 /* LaunchScreen.storyboard */; };
+		EAB54964282FF99A0026FCD1 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB54963282FF99A0026FCD1 /* Cell.swift */; };
+		EAB54968283005670026FCD1 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB54967283005670026FCD1 /* Book.swift */; };
+		EAB5496A2830234D0026FCD1 /* LibraryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB549692830234D0026FCD1 /* LibraryData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EAB54958282FF4D30026FCD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAB5495B282FF4D30026FCD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAB5495D282FF4D30026FCD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB54963282FF99A0026FCD1 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		EAB54967283005670026FCD1 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		EAB549692830234D0026FCD1 /* LibraryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		EAB5494E282FF4D20026FCD1 /* Library App */ = {
 			isa = PBXGroup;
 			children = (
+				EAB549692830234D0026FCD1 /* LibraryData.swift */,
 				EAB5494F282FF4D20026FCD1 /* AppDelegate.swift */,
 				EAB54951282FF4D20026FCD1 /* SceneDelegate.swift */,
 				EAB54953282FF4D20026FCD1 /* ViewController.swift */,
@@ -63,6 +70,8 @@
 				EAB54958282FF4D30026FCD1 /* Assets.xcassets */,
 				EAB5495A282FF4D30026FCD1 /* LaunchScreen.storyboard */,
 				EAB5495D282FF4D30026FCD1 /* Info.plist */,
+				EAB54963282FF99A0026FCD1 /* Cell.swift */,
+				EAB54967283005670026FCD1 /* Book.swift */,
 			);
 			path = "Library App";
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAB54954282FF4D20026FCD1 /* ViewController.swift in Sources */,
+				EAB54964282FF99A0026FCD1 /* Cell.swift in Sources */,
 				EAB54950282FF4D20026FCD1 /* AppDelegate.swift in Sources */,
+				EAB54968283005670026FCD1 /* Book.swift in Sources */,
 				EAB54952282FF4D20026FCD1 /* SceneDelegate.swift in Sources */,
+				EAB5496A2830234D0026FCD1 /* LibraryData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
